@@ -1,0 +1,150 @@
+.body-login {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.h1-login {
+    color: #333;
+}
+
+.form-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login label {
+    margin-bottom: 5px;
+}
+
+.form-login input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-login input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.form-login input[type="submit"]:hover {
+    background-color: green;
+}
+
+
+.i {
+    color: yellow;
+}
+
+.s {
+    color: red;
+}
+
+.nol {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #d3d3d3;
+}
+
+.header-admin {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid gray;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.header-add {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.header-add h2 {
+    color: #333;
+}
+
+.form-add-user {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-add-user label {
+    margin-bottom: 5px;
+}
+
+.form-add-user input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-add-user input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.form-add-user input[type="submit"]:hover {
+    background-color: green;
+}
+
+.csv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.csv input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.csv input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
