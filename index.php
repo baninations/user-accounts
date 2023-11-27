@@ -83,7 +83,7 @@ if (isset($_GET['logout'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Users</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style-index.css">
 </head>
 
@@ -91,10 +91,10 @@ if (isset($_GET['logout'])) {
     <div class="body-login">
         <h1 class="h1-login"><span class="nol">NOL</span><span class="i">i</span><span class="s">s</span></h1>
         <form method="post" action="" class="form-login">
-            <label for="username">Username:</label>
+            <label for="username">Benutzer:</label>
             <input type="text" name="username" required>
             <br>
-            <label for="password">Password:</label>
+            <label for="password">Passwort:</label>
             <input type="password" name="password" required>
             <br>
             <input type="submit" name="login" value="Login">
