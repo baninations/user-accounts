@@ -103,9 +103,9 @@ if (isset($_POST['export'])) {
 <body>
     <div class="header-admin">
         <form method="post" action="">
-            <label for="search">Search:</label>
+            <label for="search">Suchen:</label>
             <input type="text" name="search" id="search" value="<?php echo isset($searchTerm) ? $searchTerm : ''; ?>">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Go">
         </form>
         <a href="?logout=true">Logout</a>
 
